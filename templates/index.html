@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Social Media App</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <h1>📱 Mini Social Media App</h1>
+
+    <h2 id="welcomeUser"></h2>
+
+    <div class="section">
+
+        <h2>Login</h2>
+
+        <input type="text" id="username" placeholder="Username">
+
+        <input type="password" id="password" placeholder="Password">
+
+        <button onclick="login()">Login</button>
+
+        <button onclick="logout()">Logout</button>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Create Post</h2>
+
+        <input type="text" id="caption" placeholder="Enter caption">
+
+        <input type="file" id="image">
+
+        <button onclick="createPost()">Create Post</button>
+
+    </div>
+
+    <div class="section">
+
+        <h2>Search User Profile</h2>
+
+        <input
+            type="text"
+            id="profileUsername"
+            placeholder="Enter username"
+        >
+
+        <button onclick="getProfile()">
+            Search
+        </button>
+
+    </div>
+
+    <div id="profile"></div>
+
+    <h2 style="text-align:center;">All Posts</h2>
+
+    <div id="posts"></div>
+
+    <script src="{% static 'js/script.js' %}?v=50"></script>
+
+</body>
+</html>
