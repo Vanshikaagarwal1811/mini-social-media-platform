@@ -140,17 +140,6 @@ http://127.0.0.1:8000/
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Login Page
-* Create Post Section
-* User Profile Search
-* Posts Feed
-
----
-
 ## 🎯 Learning Outcomes
 
 Through this project, I gained practical experience in:
@@ -163,7 +152,15 @@ Through this project, I gained practical experience in:
 * Git & GitHub Workflow
 
 ---
+## 🌟 Future Enhancements
 
+* Like & Comment System
+* User Profile Editing
+* Follow/Unfollow Functionality
+* Real-time Notifications
+* Deployment on Render/Heroku
+
+---
 ## 👩‍💻 Author
 
 **Vanshika Agarwal**
